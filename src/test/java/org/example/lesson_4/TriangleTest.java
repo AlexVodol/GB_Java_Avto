@@ -1,4 +1,4 @@
-package org.example;
+package org.example.lesson_4;
 
 import java.text.MessageFormat;
 
