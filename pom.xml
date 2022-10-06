@@ -37,7 +37,6 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
       <version>5.9.0</version>
-      <scope>test</scope>
     </dependency>
     <!-- Логгер на основе slf4j и logback -->
     <dependency>
