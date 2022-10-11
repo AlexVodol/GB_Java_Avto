@@ -25,10 +25,10 @@ public class YaWeatherTest {
     void searchForGermanyTest(){
         mainPage.Advertisement()
                 .clickElementYaOk()
-                .clickSearchForCities("Ger")
-                .ClickCity("Берлин");
+                .clickSearchForCities("Gers");
+//                .ClickCity("Берлин");
 
-        Assertions.assertTrue(driver.getCurrentUrl().contains("berlin"));
+        Assertions.assertTrue(driver.getCurrentUrl().contains("0.4099729955"));
 
     }
 
@@ -38,7 +38,7 @@ public class YaWeatherTest {
                 .clickElementYaOk()
                 .clickSearchForCities("Rus")
                 .ClickCity("Ставропольский край");
-                // Почему нельзя повторно использовать ".ClickCity"?
+
 
         Assertions.assertTrue(driver.getCurrentUrl().contains("11069"));
     }
